@@ -5,7 +5,7 @@
  id ="com.phonegap.example3"
  version ="1.0.0">
  
-  <name> app3 CONTAMINACION </name>
+  <name> app3 CONTAMINACIÓN </name>
   
   <description>
    Aplicacion que muestra datos relevantes de la CONTAMINACION
@@ -33,15 +33,16 @@
  <!-- <plugin name="cordova-plugin-geolocation" source="npm" /> -->
  <!-- Third party plugins -->
  
-  <!-- para accesar a paginas de internet-->
-   <allow-intent href="https://*/*"/>
-   <acces origin="https://*/*"/>
-    <allow-intent href="http://*/*"/>
-   <acces origin="http://*/*"/>
-   <plugin name="cordova-plugin-whitelist" source="npm"/>
+ <!-- Para accesar a paginas en internet -->
+ <allow-intent href="https://*¨/*"/>
+ <acces origin="http://*/*"/>
+ <allow-intent href="htt://*/*"/>
+ <acces origin="http://*/*"/>
+ <plugin name="cordova-plugin-whitelist" source="npm"/>
   
  <!-- Colocar icono app -->
  
 <icon src="res/android/mdpi.png" />
+
 </widget>
      
